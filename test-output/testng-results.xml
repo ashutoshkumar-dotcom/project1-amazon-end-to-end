@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case is pass ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-22T00:54:06 IST" name="Amazon End-to-End Test Suite" finished-at="2025-04-22T00:54:22 IST" duration-ms="15574">
+    <groups>
+    </groups>
+    <test started-at="2025-04-22T00:54:06 IST" name="Amazon End-to-End Tests Execution with Chrome Browser" finished-at="2025-04-22T00:54:22 IST" duration-ms="15574">
+      <class name="testcases.TC15_search_wishlist_cart">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:testcases.TC15_search_wishlist_cart@14cd1699]" started-at="2025-04-22T00:54:06 IST" name="launch" finished-at="2025-04-22T00:54:10 IST" duration-ms="4022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="performEndToEndOperation()[pri:0, instance:testcases.TC15_search_wishlist_cart@14cd1699]" started-at="2025-04-22T00:54:10 IST" name="performEndToEndOperation" finished-at="2025-04-22T00:54:19 IST" duration-ms="9113" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case is pass ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performEndToEndOperation -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.TC15_search_wishlist_cart@14cd1699]" started-at="2025-04-22T00:54:20 IST" name="quit" finished-at="2025-04-22T00:54:22 IST" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.TC15_search_wishlist_cart -->
+    </test> <!-- Amazon End-to-End Tests Execution with Chrome Browser -->
+  </suite> <!-- Amazon End-to-End Test Suite -->
+</testng-results>

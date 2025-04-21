@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon End-to-End Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon End-to-End Tests Execution with Chrome Browser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.TC13_CouponCode">
+        <methods>
+          <include name="performEndToEndOperation"/>
+          <include name="launch"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- testcases.TC13_CouponCode -->
+    </classes>
+  </test> <!-- Amazon End-to-End Tests Execution with Chrome Browser(failed) -->
+</suite> <!-- Failed suite [Amazon End-to-End Test Suite] -->
